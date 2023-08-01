@@ -3,7 +3,7 @@ header {
     
 }
 
-#nav_bar_button {
+.nav_bar_button {
     padding-left: 20px;
 }
 
@@ -51,12 +51,37 @@ nav ul  {
 
 .about_me h1 {
     font-size: 86px;
-    margin-left: 200px;
+    margin-left: 400px;
+    margin-bottom: 5px;
 }
 
 .about_me p {
     font-size: 23px;
-    margin-left: 200px;
+    margin-left: 400px;
+}
+
+body {
+    background-color: #333333;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+}
+
+#intro-1 {
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+#intro-2 {
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+#intro-3 {
+    margin-left: 5px;
+    font-weight: bolder;
 }
 
 .image {
@@ -103,8 +128,4 @@ a {
     margin-bottom: 10px;
     margin-left: 10px;
     text-align: center;
-}
-
-body {
-    background-color: #333333;
 }
