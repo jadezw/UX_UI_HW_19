@@ -28,5 +28,31 @@ $(document).ready(function(){
         i = ++i % pTags.length;
 
     })();
-});
 
+    $("#lightmode-toggle-label").click(function() {
+
+        let navClasses = $("nav")
+        let headerClasses = $("header")
+        let bodyClasses = $("body")
+        let sectionClasses = $("section")
+        let emailClasses= $("email")
+
+        let classArr = [
+            navClasses,
+            headerClasses,
+            bodyClasses,
+            sectionClasses,
+            emailClasses
+        ]
+
+        for (element of classArr){
+            if (element.hasClass("light")){
+                element.removeClass("light");
+            } else {
+                element.addClass("light");
+            }
+        };
+
+    });
+
+});
