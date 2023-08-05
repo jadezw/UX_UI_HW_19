@@ -1,13 +1,17 @@
+div {
+    max-width: 100%;
+    margin: auto;
+}
+
 header {
     background-color: #333333;
-    
 }
 
 .nav_bar_button {
     padding-left: 20px;
 }
 
-nav {
+.nav {
     background-color: #333333;
     background-size: auto;
     background-repeat: no-repeat;
@@ -20,7 +24,7 @@ nav {
 nav ul  {
     list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -40,7 +44,8 @@ nav ul  {
     font-size: 20px;
     font-family: 'Space Mono', monospace;
     justify-content: space-evenly;
-}
+    margin-top: 20px;
+} 
 
 .sidebar {
     display: flex;
@@ -53,18 +58,18 @@ nav ul  {
 
 .about_me h1 {
     font-size: 86px;
-    margin-left: 400px;
+    left: 400px;
     margin-bottom: 5px;
 }
 
 .about_me p {
     font-size: 23px;
-    margin-left: 400px;
+    left: 400px;
 }
 
 body {
     background-color: #333333;
-    margin: 0;
+    display: flow-root;
 }
 
 .flex-box {
@@ -97,6 +102,14 @@ img {
     height: auto;
 }
 
+#footer {
+    bottom: 30px;
+    position: fixed;
+    min-height: 100px;
+    margin-top: 10px;
+    display: flow-root;
+}
+
 .footer_content {
     width: 100%;
     display: flex;
@@ -105,7 +118,7 @@ img {
     background-color: #333333;
 }
 
-.email {
+#email-div {
     font-size: 20px;
     font-family: 'Space Mono', monospace;
     margin-left: 10px;
@@ -137,7 +150,7 @@ a {
 label{
     width: 83px;
     height: 46px;
-    margin-top: 10px;
+    margin-top: -5px;
     margin-right: 20px;
     position: relative;
     display: block;
@@ -184,4 +197,14 @@ label:active:after {
 .light {
     background-color: #ffffff;
     color: #333333;
+}
+
+#ul-div {
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+#darkmode-div {
+    right: 0;
+    position: fixed;
 }

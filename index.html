@@ -1,5 +1,5 @@
 <html> 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/index.js"></script>
 
@@ -16,18 +16,20 @@
         </div>
 
         <div class="nav_right">
-            <ul>
-                <li class="nav_bar_button">Home</li>
-                <li class="nav_bar_button">About</li>
-                <li class="nav_bar_button">Work</li>
-                <li class="nav_bar_button">Skills</li>
-                
-            </ul>
-            <input type="checkbox" id ="lightmode-toggle"/>
-            <label for="lightmode-toggle" id ="lightmode-toggle-label"></label>
+            <div id="ul-div">
+                <ul>
+                    <li class="nav_bar_button">Home</li>
+                    <li class="nav_bar_button">About</li>
+                    <li class="nav_bar_button">Work</li>
+                    <li class="nav_bar_button">Skills</li>
+                </ul>
+            </div>
+            <div id="darkmode-div">
+                <input type="checkbox" id ="lightmode-toggle"/>
+                <label for="lightmode-toggle" id ="lightmode-toggle-label"></label>
+            </div>
         </div>
-    </nav>
-    
+    </nav> 
 </header>
 
 <body>
@@ -53,11 +55,11 @@
     </section>
 </body>
 
-<footer>
+<footer id="footer">
     <section class="footer_content">
-        <div class="email">
+        <div id="email-div">
             <p id="email">jade.z.wang@nyu.edu</p>
-            <a href="LinkedIn" class="linkedin">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jadezwang/" class="linkedin">LinkedIn</a>
         </div>
     </section>
 </footer>
