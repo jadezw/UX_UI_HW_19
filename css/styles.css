@@ -47,6 +47,10 @@ nav ul  {
     margin-top: 20px;
 } 
 
+.work {
+    font-size: 20px;
+}
+
 .sidebar {
     display: flex;
     flex-direction: row;

@@ -7,6 +7,13 @@ $(document).ready(function(){
         $(this).css('text-decoration', 'none');
     });
 
+    $(".Work").mouseover(function(){
+        $(this).css('text-decoration', 'underline');
+    });
+    $(".Work").mouseout(function(){
+        $(this).css('text-decoration', 'none');
+    });
+
     $(".linkedin").mouseover(function(){
         $(this).css('color', '#0072B1');
         $(this).css('background-color', '#ffffff');
